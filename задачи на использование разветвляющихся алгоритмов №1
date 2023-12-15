@@ -1,0 +1,7 @@
+x = float(input("Длину стороны x: "))
+y = float(input("Длину стороны y: "))
+z = float(input("Длину стороны z: "))
+if x + y > z and x + z > y and y + z > x:
+    print("Треугольник существует.")
+else:
+    print("Треугольник не существует.")

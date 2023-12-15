@@ -5,6 +5,6 @@ square = a**2
 circle = 3.14 * r**2
 
 if square > circle:
-    print('Квадрат имеет большую площадь:', square)
+    print(f"Квадрат имеет большую площадь: {square}")
 else:
-    print('Круг имеет большую площадь:', circle)
+    print(f"Круг имеет большую площадь: {circle}")

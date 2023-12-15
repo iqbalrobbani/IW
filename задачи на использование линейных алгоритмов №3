@@ -1,0 +1,14 @@
+import math
+
+d1 = float(input("Введите длину стороны d1 прямоугольника: "))
+d2 = float(input("Введите длину стороны d2 прямоугольника: "))
+
+p = 2 * d1 + 2 * d2 #perimeter
+
+s = d1 * d2 #square
+
+dl = math.sqrt(d1**2 + d2**2) #diagonal length
+
+print(f"\nПериметр прямоугольника: {p}")
+print(f"\nПлощадь прямоугольника: {s}")
+print(f"\nДлина диагонали прямоугольника: {dl}")

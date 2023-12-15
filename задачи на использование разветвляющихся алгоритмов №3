@@ -1,0 +1,10 @@
+a = float(input("Введите сторону квадрата (a): "))
+r = float(input("Введите радиус круга (r): "))
+
+square = a**2
+circle = 3.14 * r**2
+
+if square > circle:
+    print('Квадрат имеет большую площадь:', square)
+else:
+    print('Круг имеет большую площадь:', circle)
